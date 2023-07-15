@@ -96,7 +96,7 @@ function loadAvatarSet(s, n) {
     if (n) mdui.snackbar('加载成功，头像库中一共有 ' + avatarURL.length + ' 个头像');
 }
 var emoticon = [];
-xhrGet('https://cdn.jsdelivr.net/gh/TransparentLC/WechatMomentScreenshot/emoticon.json', function (result) { emoticon = JSON.parse(result) });
+xhrGet('https://cdn.jsdelivr.net/gh/itshenry35/WechatMomentScreenshot@devprev/emoticon.json', function (result) { emoticon = JSON.parse(result) });
 
 // 读取配置
 var configDefault = {
